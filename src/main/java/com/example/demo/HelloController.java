@@ -17,7 +17,7 @@ public class HelloController {
 
     }
 
-    //@GetMapping("/")
+    @GetMapping("/time")
     public LocalDateTime dateNow() {
         return LocalDateTime.now();
     }
