@@ -1,9 +1,9 @@
 package com.example.demo;
 
 public class Dimensions {
-    private int length;
-    private int width;
-    private int height;
+    private int length = 0;
+    private int width = 0;
+    private int height = 0;
 
     public int getLength() {
         return length;
